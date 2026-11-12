@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "contract_type": "localci.application",
+  "status": "proposal",
+  "repository": "DantyDCook/D499_Project_1_Supervised",
+  "source": {
+    "branch": "main",
+    "immutable_commit_required": true
+  },
+  "project_kind": "python-ml-notebook",
+  "test_profiles": [
+    "notebook-json-integrity",
+    "python-static-syntax",
+    "model-metrics-fixture",
+    "requirements-review"
+  ],
+  "release": {
+    "requested_destination": "none"
+  },
+  "security": {
+    "central_policy_required": true,
+    "allow_app_defined_executables": false,
+    "allow_disable_required_gates": false,
+    "allow_unreviewed_publisher_updates": false
+  }
+}
